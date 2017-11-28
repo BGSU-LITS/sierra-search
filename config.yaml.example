@@ -1,0 +1,20 @@
+# Application settings.
+app:
+  # Whether to enable debug information.
+  debug: false
+  # Path to log file, if any.
+  log:
+
+# Template settings.
+template:
+  # Path to search for templates before this package's templates.
+  path:
+  # Filename of template that defines a page. Default: page.html.twig
+  page:
+
+analytics:
+  tracking_id: 'UA-XXXXXXX-X'
+
+catalogs:
+  example:
+    domain: 'catalog.example.edu'
