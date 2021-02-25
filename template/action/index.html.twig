@@ -1,0 +1,21 @@
+{% set title = 'Redirects' %}
+{% extends 'page.html.twig' %}
+
+{% block content %}
+{{ parent() }}
+
+<table class="table">
+<thead>
+<tr><th>From</th><th>To</th></tr>
+</thead>
+<tbody>
+{% for catalog, url in catalogs %}
+<tr>
+<td><a href="{{ url_for('catalog', {'catalog': catalog}) }}">{{ full_url_for('catalog', {'catalog': catalog}) }}</a></td>
+<td><a href="{{ url }}">{{url}}</a></td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+{% endblock %}
