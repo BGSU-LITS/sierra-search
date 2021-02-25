@@ -27,10 +27,10 @@ final class IndexAction extends Action
             throw new HttpNotFoundException($this->request);
         }
 
-        $url = \rtrim($catalogs[$this->data['catalog']], '/');
+        $url = \rtrim($catalogs[$this->data['catalog']], '/') . '/';
 
         if (isset($this->data['function'])) {
-            $url .= '/' . $this->data['function'];
+            $url .= $this->data['function'];
         }
 
         $query = $this->request->getUri()->getQuery();
