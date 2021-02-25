@@ -12,7 +12,7 @@
 {% for catalog, url in catalogs %}
 <tr>
 <td><a href="{{ url_for('catalog', {'catalog': catalog}) }}">{{ full_url_for('catalog', {'catalog': catalog}) }}</a></td>
-<td><a href="{{ url }}">{{url}}</a></td>
+<td><a href="{{ url }}">{{ url }}</a></td>
 </tr>
 {% endfor %}
 </tbody>

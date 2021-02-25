@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6d305ae41d05046432bd1b19168a7460",
+    "content-hash": "7b9af384575575dd889fadd7a8e06065",
     "packages": [
         {
             "name": "bgsu-lits/framework",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/BGSU-LITS/framework.git",
-                "reference": "790f571b283558ce01d219f1b8acebff43516081"
+                "reference": "5fef91330529e210d5a04a0b2c618c81fe79991c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/BGSU-LITS/framework/zipball/790f571b283558ce01d219f1b8acebff43516081",
-                "reference": "790f571b283558ce01d219f1b8acebff43516081",
+                "url": "https://api.github.com/repos/BGSU-LITS/framework/zipball/5fef91330529e210d5a04a0b2c618c81fe79991c",
+                "reference": "5fef91330529e210d5a04a0b2c618c81fe79991c",
                 "shasum": ""
             },
             "require": {
@@ -66,9 +66,9 @@
             "description": "Framework for applications based on Slim.",
             "support": {
                 "issues": "https://github.com/BGSU-LITS/framework/issues",
-                "source": "https://github.com/BGSU-LITS/framework/tree/v1.1.0"
+                "source": "https://github.com/BGSU-LITS/framework/tree/v1.2.0"
             },
-            "time": "2021-02-24T20:30:10+00:00"
+            "time": "2021-02-25T16:08:37+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
